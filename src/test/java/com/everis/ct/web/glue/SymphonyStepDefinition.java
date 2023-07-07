@@ -57,7 +57,7 @@ public class SymphonyStepDefinition {
     }
     @Then("inicia sesión de manera exitosa siendo dirigido a la página de 'Inventory'")
     public void iniciaSesion() {
-        searchStep.pageLocation("Connectivity Platform", "//button[@type='button']", "xPath",WebDriverManager.getDriver().getCurrentUrl(),urlSymphony + "inventory");
+        searchStep.pageLocation("Connectivity Platform", "//button[@type='button']", "xPath",WebDriverManager.getDriver().getCurrentUrl(),urlSymphony + "workorders");
     }
     @And("hace clic en el ícono 'Profile' de la barra de navegación")
     public void haceClicEnElIconoProfileDeLaBarraDeNavegacion() {

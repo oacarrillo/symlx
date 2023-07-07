@@ -1,0 +1,32 @@
+###################
+### URL - SITES ###
+###################
+url:
+  google: https://www.google.com/
+  settings: chrome://settings/
+  symphony: https://symphony.coe.dev.telecomopennetworks.com/
+
+webdriver:
+  #chrome, safari, edge, opera
+  browser: chrome
+  path: chromedriver
+  chrome.extraArgs: --remote-allow-origins=*
+
+    #acceptInsecureCerts: default value -> on. Possible value: off
+    #acceptInsecureCerts: on
+    #windowSize: default value -> MAXIMIZE. Possible value: width, height Example: 1024,768
+  #windowSize: 1024,768
+  #headless: default value -> on. Possible value: off
+  headless: on
+  #screenShotsPath: project-root/shots . Possible value: dir,dir,dir Example: target,evidence
+  #screenShotsPath: target,evidence
+
+###########################################################################
+### To use JDBC configuration, comment 'autoconfigure.exclude' property ###
+###########################################################################
+spring:
+  dataSource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:54322/xxxx
+    username: xxxx
+    password: xxxx

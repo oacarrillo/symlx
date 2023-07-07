@@ -1,0 +1,11 @@
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/hooks/Hooks.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/runner/RunnerTest.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/jdbcDemo/JdbcTest.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/runner/ParallelRunnerTest.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/step/SymphonySettingsStep.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/glue/SymphonyStepDefinition.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/page/SymphonySettinsPage.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/page/SymphonySearchPage.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/page/StepPages.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/step/SymphonySearchStep.java
+/home/auto/Documentos/sym/src/test/java/com/everis/ct/web/page/SymphonyResultsPage.java
